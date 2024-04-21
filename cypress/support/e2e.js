@@ -19,3 +19,7 @@ import "./commands.web";
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+beforeEach(() => {
+  cy.intercept("**/auth").as("authRequest");
+});
