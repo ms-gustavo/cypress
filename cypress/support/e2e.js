@@ -22,4 +22,5 @@ import "./commands.web";
 
 beforeEach(() => {
   cy.intercept("**/auth").as("authRequest");
+  cy.viewport("iphone-xr");
 });
