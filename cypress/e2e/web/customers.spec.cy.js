@@ -1,5 +1,19 @@
 import { faker } from "@faker-js/faker";
 
+describe("users should visualize the client list", () => {
+  before(() => {
+    cy.authentication_bypass_api();
+  });
+
+  beforeEach(() => {
+    cy.intercept("**/api/v1/customers/all", { fixture: "customers.json" });
+  });
+
+  it("by form application successfully", () => {
+    cy.list_customers();
+  });
+});
+
 describe("user should register new customers", () => {
   before(() => {
     cy.authentication_bypass_api();

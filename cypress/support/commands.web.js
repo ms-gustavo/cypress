@@ -118,3 +118,14 @@ Cypress.Commands.add(
     cy.xpath(utils.sharedSelectors.panel_error).should("be.visible");
   }
 );
+
+Cypress.Commands.add("list_customers", () => {
+  setAuthCookies();
+
+  cy.visit(`${utils.webUrl}/customers-list`, {
+    onBeforeLoad(win) {
+      setAuthSessionStorage(win);
+    },
+  });
+  cy.xpath(utils.sharedSelectors.panel_success).should("be.visible");
+});

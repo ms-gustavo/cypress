@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "status": "Active",
+    "salary": 50000,
+    "address": "123 Main Street",
+    "email": "john.doe@example.com",
+    "phoneNumber": "1234567890",
+    "company": "ABC Inc.",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "zipcode": "10001"
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "status": "Active",
+    "salary": 60000,
+    "address": "456 Elm Street",
+    "email": "jane.smith@example.com",
+    "phoneNumber": "1987654321",
+    "company": "XYZ Corp",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "zipcode": "90001"
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "status": "Inactive",
+    "salary": 55000,
+    "address": "789 Oak Street",
+    "email": "michael.johnson@example.com",
+    "phoneNumber": "1122334455",
+    "company": "123 Industries",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "zipcode": "60601"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "status": "Active",
+    "salary": 70000,
+    "address": "101 Pine Street",
+    "email": "emily.davis@example.com",
+    "phoneNumber": "1212121212",
+    "company": "Acme Corp",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "USA",
+    "zipcode": "94101"
+  },
+  {
+    "id": 5,
+    "name": "David Brown",
+    "status": "Active",
+    "salary": 62000,
+    "address": "321 Maple Street",
+    "email": "david.brown@example.com",
+    "phoneNumber": "1357924680",
+    "company": "Tech Solutions",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "USA",
+    "zipcode": "98101"
+  }
+]
